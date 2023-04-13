@@ -15,7 +15,7 @@ export default function Projects() {
               className="max-w-[300px] basis-full sm:basis-[50%] md:basis-[30^]"
               key={indx}
             >
-              <img src={item.img} />
+              <img src={item.img} className="h-[180px] w-[300px]" />
               <h3 className="text-primary text-[30px] my-5">
                 {item[contentProjects].name}
               </h3>
