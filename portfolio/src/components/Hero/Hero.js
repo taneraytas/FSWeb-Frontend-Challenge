@@ -12,7 +12,9 @@ export default function Hero() {
         <div className="w-1/2">
           <div className="flex items-center justify-center md:justify-start gap-2 text-primary  text-[1rem] dark:text-[#BAB2E7]">
             <hr className="md:w-[10%] md:border-[1px] text-primary dark:text-[#BAB2E7]" />
-            <span className="text-lg sm:text-[1rem]"> Taner Tarık Aytaş</span>
+            <span className="text-2xl md:text-lg sm:text-[1rem]">
+              Taner Tarık Aytaş
+            </span>
           </div>
           <h1 className="text-[36px] text-title min-[768px]:text-[54px] md:text-[108px] text-center md:text-justify font-bold tracking-wider">
             {content.titleFirstLine}
@@ -24,7 +26,7 @@ export default function Hero() {
           </p>
           <div className=" flex justify-center sm:justify-start gap-3  mt-[20px] sm:mt-[40px]">
             <button className="hidden sm:inline-block btn-hero dark:bg-[#E1E1FF] dark:text-[#000]">
-              {content.hireMe}
+              <a href="#footer">{content.hireMe}</a>
             </button>
             <a
               href="https://github.com/taneraytas"

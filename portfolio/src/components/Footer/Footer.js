@@ -25,11 +25,17 @@ export default function Footer() {
             </div>
             <div className="basis-1/2 justify-center flex gap-10 mt-5 md:mt-0 text-[16px] lg:text-[18px]">
               <span className="text-[#0A0A14] dark:text-[#E1E1FF]">
-                Personal Blog
+                <a href="https://taneraytas.com">{content.blog}</a>
               </span>
-              <span className="text-[#00AB6B] dark:text-[#17D18B]">GitHub</span>
+              <span className="text-[#00AB6B] dark:text-[#17D18B]">
+                <a href="https://github.com/taneraytas" target="_blank">
+                  GitHub
+                </a>
+              </span>
               <span className="text-[#0077B5] dark:text-[#0BA6F6]">
-                Linkedin
+                <a href="https://linkedin.com/in/taneraytas" target="_blank">
+                  Linkedin
+                </a>
               </span>
             </div>
           </div>

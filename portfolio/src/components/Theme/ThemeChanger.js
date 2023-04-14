@@ -20,13 +20,16 @@ export default function ThemeChanger() {
         </label>
       </div>
 
-      <div onClick={langHandler}>
+      <div>
         <div className="  sm:hidden cursor-pointer">
           {langPre === true ? "EN" : "TR"}
         </div>
         <div className="hidden sm:inline-block">
           {theme.toUpperCase()} MOD |
-          <span className=" text-primary font-bold">
+          <span
+            className="cursor-pointer text-primary font-bold"
+            onClick={langHandler}
+          >
             {langPre === true ? "İNGİLİZCE" : "TÜRKÇE"}
           </span>
           'YE GEÇ
