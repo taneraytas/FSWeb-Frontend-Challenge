@@ -36,8 +36,12 @@ export default function Projects() {
                 })}
               </div>
               <div className="flex justify-between text-primary dark:text-text underline">
-                <a href={item.links.github}>GitHub </a>
-                <a href={item.links.live}>Wiev Site </a>
+                <a href={item.links.github} target="_blank">
+                  GitHub{" "}
+                </a>
+                <a href={item.links.live} target="_blank">
+                  Wiev Site{" "}
+                </a>
               </div>
             </div>
           );

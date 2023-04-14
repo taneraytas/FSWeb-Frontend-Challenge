@@ -12,15 +12,18 @@ export default function Hero() {
         <div className="w-1/2">
           <div className="flex items-center justify-center md:justify-start gap-2 text-primary  text-[1rem] dark:text-[#BAB2E7]">
             <hr className="md:w-[10%] md:border-[1px] text-primary dark:text-[#BAB2E7]" />
-            <span className="text-2xl md:text-lg sm:text-[1rem]">
+            <span className="text-2xl text-center md:text-lg sm:text-[1rem]">
               Taner Tarık Aytaş
             </span>
           </div>
-          <h1 className="text-[36px] text-title min-[768px]:text-[54px] md:text-[108px] text-center md:text-justify font-bold tracking-wider">
-            {content.titleFirstLine}
-            <br />
-            {content.titleSecondLine}
-          </h1>
+          <div
+            div
+            className="text-[26px] md:text-[36px] flex justify-center flex-col text-title min-[768px]:text-[54px] md:text-[108px] text-center md:text-justify font-bold tracking-wider"
+          >
+            <span>{content.titleFirstLine}</span>
+
+            <span>{content.titleSecondLine}</span>
+          </div>
           <p className="text-text text-center items-start text-[18px] pt-[40px] md:max-w-[900px] md:text-justify ">
             {content.heroParag}
           </p>

@@ -1,4 +1,6 @@
 import pizza from "../assets/pizza.png";
+import imdb from "../assets/imdb_projects.png";
+import card from "../assets/card.png";
 
 export const projects = [
   {
@@ -8,7 +10,7 @@ export const projects = [
       info: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
     },
     en: {
-      name: "Pizza Order - I'm Hungry",
+      name: "Tech Foods",
       info: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
     },
     tech: ["react", "redux", "axios"],
@@ -19,35 +21,35 @@ export const projects = [
   },
 
   {
-    img: "https://picsum.photos/300/180",
+    img: imdb,
     tr: {
-      name: "Pizza Siparişi - Acıktım",
+      name: "IMDB Veritabanı",
       info: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
     },
     en: {
-      name: "Pizza Order - I'm Hungry",
+      name: "IMDB Database",
       info: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
     },
     tech: ["react", "redux", "axios"],
     links: {
       github: "https://github.com/taneraytas",
-      live: "https://github.com/taneraytas",
+      live: "http://fsweb0123.infinityfreeapp.com",
     },
   },
   {
-    img: "https://picsum.photos/300/180",
+    img: card,
     tr: {
-      name: "Pizza Siparişi - Acıktım",
+      name: "Sipariş Sepeti",
       info: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
     },
     en: {
-      name: "Pizza Order - I'm Hungry",
+      name: "Order Cart",
       info: "A simple, customizable, minimal setup cookie plugin that allows your users to select which cookies to accept or decline. This was created with vanilla JS, SCSS and Parcel Bundler and is available as a NPM package and the git repository makes any type of customization to code and themes possible.",
     },
     tech: ["react", "redux", "axios"],
     links: {
       github: "https://github.com/taneraytas",
-      live: "https://github.com/taneraytas",
+      live: "http://project3fsweb2023.epizy.com",
     },
   },
 ];
